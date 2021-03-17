@@ -1,0 +1,134 @@
+.bg-img {
+  background-image: url("./Banner_mage.png");
+  min-height: 470px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 550px;
+}
+.container {
+  position: absolute;
+  left: 980px;
+  top: 40px;
+  margin: 20px;
+  max-width: 300px;
+  padding: 16px;
+  background-color: white;
+  border: 1px solid black;
+}
+input[type="text"],
+input[type="password"] {
+  width: 90%;
+  padding: 5px;
+  margin: 3px 0 22px 0;
+  border-color: lightgrey;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  background-color: white;
+  outline: none;
+}
+#btn-apt {
+  background-color: lightcoral;
+  width: 40%;
+}
+.btn {
+  background-color: maroon;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 40%;
+  opacity: 0.9;
+}
+.btn1 {
+  width: 12%;
+  line-height: 40px;
+  background-color: lightcoral;
+  color: white;
+  position: absolute;
+  left: 190px;
+  top: 300px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 190px;
+}
+.adult {
+  color: white;
+  width: 622px;
+  font-family: "Times New Roman", Times, serif;
+  position: relative;
+  top: 153px;
+  left: 190px;
+  font-size: 25px;
+}
+.h1 {
+  color: white;
+  position: relative;
+  left: 10px;
+  top: 20px;
+}
+.group {
+  margin-top: 40px;
+  margin-left: 133px;
+}
+.bone {
+  width: 100px;
+  height: 54px;
+  margin-top: 51px;
+}
+#bone-desc h5 {
+  color: white;
+  width: 85%;
+}
+#bone-desc p {
+  color: black;
+}
+.choice {
+  font-family: StagSans;
+}
+.test {
+  color: #22b78e;
+}
+.btn2-apt {
+  border: 1px solid grey;
+  border-radius: 4px;
+  background-color: rgb(7, 72, 194);
+  color: white;
+  height: 50px;
+  position: relative;
+  left: 590px;
+  padding: 10px;
+  margin: 10px;
+}
+.footer-box {
+  background-color: grey;
+  border: 2px solid rgba(68, 65, 65, 0.849);
+}
+.footer_imgs {
+  display: flex;
+}
+.footer_imgs li {
+  padding: 10px;
+  list-style-type: none;
+  position: relative;
+  left: 570px;
+}
+.footer_imgs li img {
+  margin: 0;
+  padding: 0px;
+}
+.footer-content p {
+  color: black;
+  font-family: StagSans;
+  font-size: 14px;
+  letter-spacing: 1.12px;
+  line-height: 17px;
+  text-align: center;
+}
